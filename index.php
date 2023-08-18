@@ -238,12 +238,12 @@ echo '</table>'
     <th>Nom</th>
   </tr>
 
-  <!-- <?php for ($i = 0; $i < count($etudiantsFor) ; $i++) { ?> -->
+   <?php for ($i = 0; $i < count($etudiantsFor) ; $i++) { ?> -->
     <tr>
         <td><?= $i ?></td>
         <td><?= $etudiantsFor[$i] ?></td>
   </tr>
- -->
+ 
   <?php }?>
 
 </table>
@@ -263,9 +263,7 @@ echo '</table>'
 ?>
 
 <br>
-<!-- <div class="container">
-
-
+ <div class="container">
 
 
 
@@ -290,9 +288,6 @@ echo '</table>'
 
 </div>
        
- -->
-
-
 
 
 
